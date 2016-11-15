@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/serdar?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: serdar
+    password: serdar
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+            ddl-auto: create
+            naming:
+                strategy: org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy
